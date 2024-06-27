@@ -1,0 +1,17 @@
+{
+  "name": "@repo/types",
+  "version": "0.0.2",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "exports": {
+    "./*": "./src/*"
+  },
+  "dependencies": {
+    "@choosetale/nestia-type": "1.0.1",
+    "nestia": "^5.3.0"
+  }
+}

@@ -6,23 +6,11 @@ const nextConfig = {
     return [
       {
         source: "/game",
-        destination: "https://choosetale-game.vercel.app",
+        destination: "https://choosetale-gamebuilder.vercel.app",
       },
       {
         source: "/game/:path*",
-        destination: "https://choosetale-game.vercel.app/:path*",
-      },
-      {
-        source: "/story",
-        destination: "https://choosetale-storybuilder.vercel.app",
-      },
-      {
-        source: "/story/:path*",
-        destination: "https://choosetale-storybuilder.vercel.app/:path*",
-      },
-      {
-        source: "/google",
-        destination: "https://www.google.com",
+        destination: "https://choosetale-gamebuilder.vercel.app/:path*",
       },
     ];
   },

@@ -1,5 +1,5 @@
 "use client";
-import { HomeIcon, Pencil2Icon, PersonIcon } from "@radix-ui/react-icons";
+import { HomeIcon, Pencil2Icon } from "@radix-ui/react-icons";
 import { NavigationMenu, NavigationMenuItem } from "./ui/navigation-menu";
 import { Link } from "@radix-ui/react-navigation-menu";
 
@@ -14,7 +14,7 @@ export default function NavBar() {
             </Link>
           </NavigationMenuItem>
           <NavigationMenuItem>
-            <Link href="/story/create">
+            <Link href="/game/create">
               <Pencil2Icon
                 height={24}
                 width={24}
