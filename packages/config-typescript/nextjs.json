@@ -12,7 +12,6 @@
     "lib": ["dom", "dom.iterable", "esnext"],
     "module": "esnext",
     "resolveJsonModule": true,
-    "strict": true,
     "target": "es5"
   }
 }
